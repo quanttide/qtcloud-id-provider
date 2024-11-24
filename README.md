@@ -1,4 +1,4 @@
-# 量潮Python项目示例
+# 量潮数字身份云服务端
 
 ## 环境配置
 
@@ -28,5 +28,5 @@
 1. 在`项目根目录`下执行以下命令：
 
    ```shell
-   pdm run python project_name/__main__.py
+   pdm run uvicorn src.qtcloud_id_provider.main:app --reload
    ```
